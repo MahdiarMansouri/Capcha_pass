@@ -29,7 +29,7 @@ class WebScrapper:
         except:
             pass
 
-    #
+
     def account_login(self, username, password):
         try:
             username_XPATH = '/html/body/div[1]/div[2]/div[1]/form/div[1]/input'
